@@ -11,13 +11,13 @@ try {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';  // Ganti dengan host SMTP Anda
     $mail->SMTPAuth = true;
-    $mail->Username = 'keyrin202@gmail.com';  // Ganti dengan email Anda
-    $mail->Password = 'aund fuee atdh wjpx';  // Ganti dengan password email Anda
+    $mail->Username = 'xxxx xxxx xxxx';  // Ganti dengan email Anda
+    $mail->Password = 'xxxx xxxx xxxx';  // Ganti dengan password email Anda
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;  // Atau PHPMailer::ENCRYPTION_SMTPS
     $mail->Port = 587;  // Port SMTP (587 untuk TLS, 465 untuk SSL)
 
     //Recipients
-    $mail->setFrom('keyrin202@gmail.com', 'Rinaldi Rizqi Mulya');  // Ganti dengan email dan nama Anda
+    $mail->setFrom('xxxx xxxx xxxx', 'Rinaldi Rizqi Mulya');  // Ganti dengan email dan nama Anda
     $mail->addAddress($_POST['email']);  // Email penerima dari form
 
     // Content

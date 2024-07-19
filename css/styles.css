@@ -1,0 +1,78 @@
+/* styles.css */
+
+body {
+    background: url('../css/images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: black; /* Mengatur warna teks default menjadi putih */
+}
+
+header {
+    background-color: rgba(0, 123, 255, 0.85);
+    color: black; /* Teks header putih */
+    padding: 1.5rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, p {
+    color: black; /* Menetapkan warna putih untuk elemen h1, h2, dan p */
+}
+
+.form-select, .form-control {
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button.btn {
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: black; /* Teks button putih */
+}
+
+#weatherResult {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: black; /* Mengatur warna teks di weatherResult menjadi hitam untuk kontras */
+}
+
+#weatherResult h3 {
+    margin-bottom: 1rem;
+    color: black; /* Mengatur warna heading di weatherResult menjadi hitam untuk kontras */
+}
+
+footer {
+    background-color: rgba(0, 123, 255, 0.85);
+    color: black; /* Teks footer putih */
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: black; /* Tautan di footer putih */
+    text-decoration: none;
+    font-weight: 700;
+}
+.weather-icon {
+    font-size: 3rem;
+    margin-right: 10px;
+}
+.btn-custom-blue {
+    background-color: #007bff; /* Warna biru tombol */
+    border-color: #007bff;
+    color: #ffffff; /* Warna teks putih */
+}
+
+.btn-custom-blue:hover {
+    background-color: #0056b3; /* Warna biru lebih gelap saat hover */
+    border-color: #004085;
+    color: #ffffff; /* Warna teks putih saat hover */
+}

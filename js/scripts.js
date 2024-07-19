@@ -1,4 +1,4 @@
-const apiKey = 'dbc71c13436957cd29eaee0b312fefdb';  // Ganti dengan API key dari OpenWeatherMap
+const apiKey = 'xxxxxxxxxxxxxxx';  // Ganti dengan API key dari OpenWeatherMap
 
 const locations = {
     'Jakarta': { lat: -6.2088, lon: 106.8456 },
